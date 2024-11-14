@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Gerador de cartas</h1>
+        <img id="random-number" class="card" src="logo.jpg"/>
+        <!-- <div id="random-number"></div> -->
+        <!-- let usedNumbers = {'CIRCUITOS': [], 'ELETRIZAÇÃO - FORÇA ELÉTRICA': [], 'FÍSICA GERAL': [], 'FLUÍDOS': [], 'GRAVITAÇÃO': [],'HISTÓRIA DA FÍSICA':[],'LEIS DE NEWTON': [],'MOVIMENTO':[],'NATUREZA E PROPAGAÇÃO DA LUZ':[],'ONDAS MECÂNICAS':[],'QUANTIDADE DE MOVIMENTO':[],'TERMODINÂMICA':[],'TRABALHO E ENERGIA':[],'UNIDADES E GRANDEZAS FÍSICAS':[]}; -->
+
+        <div><button onclick="generateRandomNumber()">Escolher Carta</button></div>
+        <select  id="mySelect">
+            <option value="ANIMAL">ANIMAL</option>
+            <option value="COMIDA">COMIDA</option>
+            <option value="COR">COR</option>
+            <option value="FRUTA">FRUTA</option>
+            <option value="OBJETO">OBJETO</option>
+            <option value="PAÍS">PAÍS</option>
+            <option value="PARTE DO CORPO">PARTE DO CORPO</option>
+            <option value="PROFISSÃO">PROFISSÃO</option>
+            <option value="QUALIDADE">QUALIDADE</option>
+            <option value="TRANSPORTE">TRANSPORTE</option>
+            <option value="VERBO">VERBO</option>
+            <option value="VESTIMENTA">VESTIMENTA</option>
+        </select>
+    </div>
+   
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- RISCO DE ACIDENTE , RISCO BIOLÓGICO, RISCO ERGONÔMICO, RISCO FÍSICO, RISCO QUÍMICO -->
